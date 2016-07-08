@@ -52,6 +52,7 @@ requirements:
         - expat
         - sqlite  # [not win]
         - libspatialite  # [not win]
+        - libxml2 2.9.3
 
     run:
         - python
@@ -77,6 +78,7 @@ requirements:
         - expat
         - sqlite  # [not win]
         - libspatialite  # [not win]
+        - libxml2 2.9.3
 
 test:
     files:
